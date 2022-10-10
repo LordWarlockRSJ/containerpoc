@@ -16,7 +16,7 @@ steps:
   inputs:
     connectionType: 'Azure Resource Manager'
     azureSubscriptionEndpoint: 'container-poc-k8s'
-    azureResourceGroup: 'gov-devops'
+    azureResourceGroup: 'aksport_kube'
     kubernetesCluster: 'aksport'
     command: 'apply'
     arguments: '-f deploy.yaml'
