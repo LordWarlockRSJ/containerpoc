@@ -5,4 +5,4 @@ metadata:
 spec:
   containers:
   - name: private-reg-container
-    image: k8sregistry.westeurope.data.azurecr.io/nginx-echo-headers:latest
+    image: k8sregistry.azurecr.io/nginx-echo-headers:latest
